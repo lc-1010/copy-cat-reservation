@@ -47,6 +47,31 @@ cargo new reservation --lib
    Compiling abi v0.1.0 (/Developer/rustPL/livecode/abi)
    Compiling copy-reservation-service v0.1.0 (/Developer/rustPL/livecode/service)
     Finished dev [unoptimized + debuginfo] target(s) in 7.62s
-```
-cargo install --locked cargo-deny
+
+ cargo install --locked cargo-deny
 cargo install cargo-nextest --locked
+
+```
+git commit -a
+```
+git commit -a
+Check for byte-order marker..............................................Passed
+Check for case conflicts.................................................Passed
+Check for merge conflicts................................................Passed
+Check for broken symlinks............................(no files to check)Skipped
+Check Yaml...............................................................Passed
+Fix End of Files.........................................................Passed
+Mixed line ending........................................................Passed
+Trim Trailing Whitespace.................................................Passed
+black................................................(no files to check)Skipped
+typos....................................................................Passed
+cargo fmt................................................................Passed
+cargo deny check.........................................................Passed
+cargo check..............................................................Passed
+cargo clippy.............................................................Passed
+cargo test...............................................................Passed
+[master (root-commit) 66ec34a] init
+```
+报错 因为没有安装cargo 包
+删除target 后
+ok
